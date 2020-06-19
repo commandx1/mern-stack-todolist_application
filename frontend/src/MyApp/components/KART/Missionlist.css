@@ -1,0 +1,7 @@
+.missionlist-icons {
+    transition: all ease 1200ms;
+    opacity: 1;
+}
+.missionlist-icons-unvisible {
+    opacity: 0;
+}

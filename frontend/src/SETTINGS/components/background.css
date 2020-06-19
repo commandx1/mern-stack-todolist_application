@@ -1,0 +1,11 @@
+#ul{
+    text-align:center;
+}
+
+.background-li {
+    margin: 1rem;
+    font-size: large;
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+}

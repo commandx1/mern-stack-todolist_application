@@ -1,0 +1,143 @@
+body {
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.ecopetit.cat/wpic/mpic/59-594803_wallpaper-1080p-space-wallpaper-1080p-space-background-hd.jpg ");
+  background-size: cover;
+}
+/*  */
+/*https://wallpapertag.com/wallpaper/full/9/5/6/123974-1080p-space-wallpaper-1920x1080-for-phones.jpg */
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 
+
+*{
+  font-family: 'Roboto', sans-serif !important;
+  outline: 0;
+}
+
+/* .login-inputs .MuiInputBase-root, .login-inputs{
+  color:white !important;
+  background: none;
+} */
+
+.MuiInputAdornment-root > .MuiButtonBase-root > .MuiIconButton-label > .MuiSvgIcon-root {
+  color:#3360E1;
+}
+
+#time-picker, #date-picker-dialog {
+  color:#0C0F19 !important;
+}
+
+#date-picker-dialog-label, #time-picker-label, .MuiButton-label  {
+  color: #010205;
+}
+
+ .MuiButton-fullWidth :hover {
+  color: #091B4F !important;
+}
+
+.Todo-task{
+  position: relative;
+  transition: opacity 0.4s linear;
+  color:#fff;
+}
+.Todo-task.completed {
+  opacity: 0.5;
+}
+.Todo-task.completed:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -0.5rem;
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: white;
+  animation: strikeitem 0.5s ease-out 0s forwards;
+}
+
+@keyframes strikeitem {
+  to{
+      width: calc(70% + 7rem);
+  }
+}
+
+
+.MuiSvgIcon-root  {
+  cursor: pointer;
+}
+
+#delete-todo :hover{
+  color:#990736
+}
+#edit-todo :hover{
+  color:#893F08;
+}
+
+#Secondary-Action{
+  right: 1px
+}
+@media (max-width : 700px) {
+  #Secondary-Action {
+    right: 3px
+  }
+}
+
+#Edit {
+  cursor:pointer;
+  color:green;
+}
+
+#Delete {
+  color: red; 
+  cursor:pointer;
+}
+#Delete :hover {
+  color: #C40B0B
+  
+}
+
+#Edit :hover{
+  color:#256803
+  
+}
+
+.remove-header {
+    transition: all ease 500ms;
+    right:0;
+    cursor: pointer;
+    color:red;
+    font-weight:900;
+    font-size:1.5em;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background: transparent;
+    border: none;
+    padding:5%;
+
+}
+.remove-header:hover {
+  transform: scale(2);
+}
+
+.MuiList-root div:nth-child(odd) textarea {
+  background-color: #FA8072;
+  color:white;
+  transition: all ease 500ms;
+}
+
+.MuiList-root div:nth-child(even) textarea {
+  background-color: #FFA07A;
+}
+.MuiSlider-track{
+  transition: all ease 500ms;
+}
