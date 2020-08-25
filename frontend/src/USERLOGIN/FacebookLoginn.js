@@ -5,7 +5,7 @@ import "./Facebook.css";
 const FacebookLoginn = props =>
   
      <FacebookLogin
-      appId="223018268979272"
+      appId="your app id"
       fields="name,email,picture"
       render={renderProps => (
           <button 
