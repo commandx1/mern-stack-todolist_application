@@ -5,7 +5,7 @@ import "./Google.css";
 const GoogleLoginn = props => 
     
     <GoogleLogin
-        clientId="889707061319-299ss05a42f99c2g4v6hllcd4bsnir2p.apps.googleusercontent.com"
+        clientId="your client id"
         render={renderProps => (
           <button 
               className="loginBtn loginBtn--google" 
